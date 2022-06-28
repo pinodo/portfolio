@@ -17,16 +17,17 @@ const Project = () => {
     {
       id: 2,
       image: IMG2,
-      title: "Project 2",
-      github: "https://github.com",
-      demo: "https://dribbble.com/Alien_pixels",
+      title:
+        "Travel Advisor - Web app that helps to find restaurants, hotels, and attractions",
+      github: "https://github.com/pinodo/TravelAdvisor",
+      demo: "#",
     },
     {
       id: 3,
       image: IMG3,
       title: "Project 3",
       github: "https://github.com",
-      demo: "https://dribbble.com/Alien_pixels",
+      demo: "#",
     },
   ];
   return (
