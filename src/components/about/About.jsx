@@ -54,10 +54,12 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-            tempore ducimus dolore animi voluptate recusandae et ea iusto,
-            asperiores tenetur optio nam nulla odio qui quia delectus assumenda
-            aliquid soluta.
+            I am an ambitious, motivated, and passionate learner recently
+            graduated from BCIT.
+            <br />
+            A bunch of knowledge and projects at BCIT fostered a sense of
+            curiosity for development.
+            <br />I am a well-rounded person and easily coordinates to a team.
           </p>
         </div>
       </div>

@@ -11,8 +11,8 @@ const Project = () => {
       image: IMG1,
       title:
         "How Recycle - Web app that finds the transfer station near the user's location",
-      github: "https://github.com/jsalvin-temp/How-Recycle",
-      demo: "#",
+      github: "https://github.com/pinodo/COMP-2800-Team-BBY-29-How-Recycle",
+      demo: "https://github.com/pinodo/COMP-2800-Team-BBY-29-How-Recycle",
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ const Project = () => {
       title:
         "Travel Advisor - Web app that helps to find restaurants, hotels, and attractions",
       github: "https://github.com/pinodo/TravelAdvisor",
-      demo: "#",
+      demo: "https://github.com/pinodo/TravelAdvisor",
     },
     {
       id: 3,
@@ -48,7 +48,7 @@ const Project = () => {
                   Github
                 </a>
                 <a href={demo} className="btn btn-primary" target="_blank">
-                  Live Demo
+                  See Code
                 </a>
               </div>
             </article>
