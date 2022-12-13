@@ -23,33 +23,38 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Education</h5>
-              <small>* Certificate | Computer Systems | BCIT</small>
               <br />
-              <small>* Bachelor's Degree | Science | South Korea</small>
+              <small>* Certificate</small><br />
+              <small>Computer Systems</small><br />
+              <small>BCIT</small>
+              <br />
+              <br />
+              <small>* Bachelor's Degree</small><br />
+              <small>Science - Biology</small><br />
+              <small>South Korea</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Experience</h5>
-              <small>
-                * Web Developer Volunteer
-                <br />
-                Zyp Art Gallery
-                <br />
-                Oct 2021
-              </small>
+              <br />
+              <small>Web Dev Volunteer</small><br />
+              <small>ZYP Artgallary</small><br />
+              <small>Remote</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Languages | Tools</h5>
-              <small>===== Proficient =====</small>
+              <h5>Tools</h5>
               <br />
-              <small>HTML5 | CSS3</small>
+              <b><small>LANGUAGE</small></b>
               <br />
-              <small>===== Familiar =====</small>
+              <small>HTML5 / CSS3 / Java / Python / JavaScript</small>
               <br />
-              <small>Javascript | Python | Java</small>
+              <br />
+              <b><small>TOOLS</small></b>
+              <br />
+              <small>Spring / Django / Git / Linux / SQL</small>
             </article>
           </div>
 

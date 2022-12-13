@@ -1,8 +1,11 @@
 import React from "react";
 import "./Project.css";
-import IMG1 from "../../assets/project1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
+import IMG1 from "../../assets/project1.jfif";
+import IMG2 from "../../assets/project2.jpg";
+import IMG3 from "../../assets/project3.jpg";
+import IMG4 from "../../assets/project4.png";
+import IMG5 from "../../assets/project5.png";
+import IMG6 from "../../assets/project6.png";
 
 const Project = () => {
   const data = [
@@ -10,24 +13,45 @@ const Project = () => {
       id: 1,
       image: IMG1,
       title:
-        "How Recycle - Web app that finds the transfer station near the user's location",
-      github: "https://github.com/pinodo/COMP-2800-Team-BBY-29-How-Recycle",
-      demo: "https://github.com/pinodo/COMP-2800-Team-BBY-29-How-Recycle",
+        "React Apps : expense-management, to-do",
+      github: "https://github.com/pinodo/react",
+      demo: "https://github.com/pinodo/react",
     },
     {
       id: 2,
       image: IMG2,
       title:
-        "Travel Advisor - Web app that helps to find restaurants, hotels, and attractions",
+        "Travel Advisor : Web app that helps users to find restaurants, hotels, and attractions",
       github: "https://github.com/pinodo/TravelAdvisor",
       demo: "https://github.com/pinodo/TravelAdvisor",
     },
     {
       id: 3,
       image: IMG3,
-      title: "Project 3",
-      github: "https://github.com",
-      demo: "#",
+      title: "Django Weather App : Web app that helps users to see the specific area's weather",
+      github: "https://github.com/pinodo/DjangoWeatherApp",
+      demo: "https://github.com/pinodo/DjangoWeatherApp",
+    },
+    {
+      id: 4,
+      image: IMG4,
+      title: "Spring Apps : ecommerce (beta)  ddfd",
+      github: "https://github.com/pinodo/spring",
+      demo: "https://github.com/pinodo/spring",
+    },
+    {
+      id: 5,
+      image: IMG5,
+      title: "Algorithm Challenges",
+      github: "https://github.com/pinodo/algorithm_python",
+      demo: "https://github.com/pinodo/algorithm_python",
+    },
+    {
+      id: 6,
+      image: IMG6,
+      title: "Dev Note",
+      github: "https://github.com/pinodo/dev_note",
+      demo: "https://github.com/pinodo/dev_note",
     },
   ];
   return (
