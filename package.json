@@ -4,21 +4,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ap.cx/react-fullpage": "^0.2.0",
-    "@fullpage/react-fullpage": "^0.1.26",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@ap.cx/react-fullpage": "^0.3.0",
+    "@fullpage/react-fullpage": "^0.1.31",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
     "emailjs-com": "^3.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fullpage": "^0.1.19",
-    "react-icons": "^4.4.0",
-    "react-scripts": "^2.1.8",
+    "react-icons": "^4.7.1",
+    "react-scripts": "^5.0.1",
     "react-typical": "^0.1.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^3.1.0"
   },
   "scripts": {
+    "homepage": "https://pinodo.github.io/portfolio/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -46,5 +47,16 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "description": "<div align=\"center\">\r     <h1 align=\"center\">Alvin's Portfolio</h1>\r     <p align=\"center\">\r         <a href=\"https://pinodo.github.io/portfolio\">View Demo</a>\r         ·\r         <a href=\"https://github.com/pinodo/portfolio\">View Repository</a>\r     </p>\r </div>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinodo/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pinodo/portfolio/issues"
   }
 }
