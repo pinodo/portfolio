@@ -153,7 +153,20 @@ img {
   }
 
   section {
-    margin-top: 6rem;
+    margin-top: 30vh;
+  }
+  
+  .about__me {
+    height: 30vh;
+    width: 30vh;
+  }
+
+  section > h2 {
+    margin-bottom: 6rem;
+  }
+
+  .container about__container {
+    width: 50%;
   }
 }
 
@@ -163,6 +176,6 @@ img {
   }
 
   section {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 }

@@ -35,7 +35,7 @@ const Project = () => {
     {
       id: 4,
       image: IMG4,
-      title: "Spring Apps : ecommerce (beta)  ddfd",
+      title: "Spring Apps : ecommerce (beta)",
       github: "https://github.com/pinodo/spring",
       demo: "https://github.com/pinodo/spring",
     },

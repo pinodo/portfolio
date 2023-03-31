@@ -73,10 +73,6 @@
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1024px) {
-  section {
-    height: 100vh;
-  }
-
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
@@ -93,10 +89,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .about__container {
-    margin-top: 20rem;
-  }
-
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;

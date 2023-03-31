@@ -24,12 +24,12 @@ const About = () => {
               <FaAward className="about__icon" />
               <h5>Education</h5>
               <br />
-              <small>* Certificate</small><br />
+              <b><small>* Certificate</small></b><br />
               <small>Computer Systems</small><br />
               <small>BCIT</small>
               <br />
               <br />
-              <small>* Bachelor's Degree</small><br />
+              <b><small>* Bachelor's Degree</small></b><br />
               <small>Science - Biology</small><br />
               <small>South Korea</small>
             </article>
@@ -38,23 +38,47 @@ const About = () => {
               <FiUsers className="about__icon" />
               <h5>Experience</h5>
               <br />
-              <small>Web Dev Volunteer</small><br />
+              <b><small>Web Dev Volunteer</small></b><br />
               <small>ZYP Artgallary</small><br />
               <small>Remote</small>
+              <br />
+              <br />
+              <b><small>Lab Assistant</small></b><br />
+              <small>University Coop</small><br />
+              <small>South Korea</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Tools</h5>
+              <h5>Tools I</h5>
               <br />
               <b><small>LANGUAGE</small></b>
               <br />
-              <small>HTML5 / CSS3 / Java / Python / JavaScript</small>
+              <small>HTML5 / CSS3</small><br />
+              <small>Java / Python</small><br />
+              <small>JavaScript</small>
               <br />
               <br />
-              <b><small>TOOLS</small></b>
+              <b><small>FRAMEWORK</small></b>
               <br />
-              <small>Spring / Django / Git / Linux / SQL</small>
+              <small>Spring / Django</small><br />
+              <small>React</small>
+            </article>
+
+            <article className="about__card">
+              <VscFolderLibrary className="about__icon" />
+              <h5>Tools II</h5>
+              <br />
+              <b><small>DATABASE</small></b>
+              <br />
+              <small>SQL / Oracle</small><br />
+              <small>PostgreSQL / Firebase</small>
+              <br />
+              <br />
+              <b><small>ETC</small></b>
+              <br />
+              <small>Git / Linux</small><br />
+              <small>JUnit / Selenium</small>
             </article>
           </div>
 
